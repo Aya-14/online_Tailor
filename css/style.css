@@ -1,0 +1,697 @@
+/* start section of popular */
+.popular .lab2 h3 {
+    font-family: abril fatface,cursive;
+    color: #234262;
+    font-size: 189%;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.popular{
+    display: block;
+    margin-bottom: 65px;
+    margin-top: 67px;
+}
+.popular .custom{
+    background-color:rgb(244, 250, 249);
+    height: 38px;
+    margin-bottom: 75px;
+}
+.popular .custom a{
+    margin:2% ;
+    text-decoration: none;
+    color:#234262 ;
+    font-size: 119%;
+}
+.popular .custom a:active{
+    background-color: #cee3f8;
+    color: #fff;
+}
+.popular .custom a:link {
+    color: #fff;
+  }
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+border: none;}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    width: 110%;
+    height: 280px;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    font-family:abril fatface,cursive;
+}
+.card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #c0c0c0;
+}
+.card .cp{
+    color: black;
+    font-size: 21px;
+}
+.btn-primary {
+    color: #9cd5f0;
+    background-color: #fff;
+    border-color: #a0c7f1;
+    width: 92%;
+}
+.btn-danger {
+    color: #302e2e;
+    background-color: #fff;
+    border-color: #8a8686;
+    font-size:110%;
+    width: 32%;
+    margin-top: 22px;
+    width: 32%;
+    margin-top: 22px;
+    margin-left: 30%;
+}
+.btn-danger:hover{
+    background-color:#8a8686 ;
+    color: #fff;
+    border-color:#8a8686 ;
+}
+  /* end section of popular */
+#last-courses
+{
+    width: 100%;
+    color: white;
+}
+.last-courses-right
+{
+    background-image: url(../images/Latest_Courses/2.png);
+    background-size: cover;
+    display: none;
+}
+.last-courses-left
+{
+    background-image: url(../images/Latest_Courses/1.png);
+    background-size: cover;
+}
+.last-courses-title
+{
+    background-color: rgba(23,47,72,.871);
+    padding: 60px 20px 10px 20px;
+    margin: 0;
+}
+.last-courses-title h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.last-courses-title p
+{
+    font-size: 18px;
+    line-height: 35px;
+}
+.last-courses-contant
+{
+    background-color: rgba(23,47,72,.871);
+    padding: 20px 20px 60px 20px;
+    margin: 0;
+}
+.lab-icon
+{
+    text-align: center;
+    display: inline-block;
+    color: #357ed7;
+    background-color: white;
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 25px;
+}
+.courses-contant-title
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.courses-contant-text
+{
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+.courses-contant-apply
+{
+    padding-top: 10px;
+    text-align: center;
+    color: #1fc2d9;
+    border: 1px solid #1fc2d9;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.courses-contant-apply:hover
+{
+    background-color: #1fc2d9;
+    color: white;
+}
+.courses-contant-apply:focus
+{
+    box-shadow: 0 0 0 0;
+}
+/* end of "last courses" section style*/
+
+/*******************************************************************************************************/
+
+/* start recent event style*/
+
+.recent_event{
+    margin: 100px auto;
+    padding: 70px auto;
+    width: 90%;
+    font-size: 20px;
+    font-family:initial;
+    background-color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+    
+}
+
+
+.fr_recent{
+    margin: 40px auto 60px auto;
+    width: 50%;
+    
+        
+}
+.h1{
+    color: #091138cc;
+    font-weight: 900;
+}
+
+.smal_div1 {
+    width: 20%;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.smal_div2 {
+    width: 20%;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #ff9800c2;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.col_se_recent {
+    margin: 50px 10% ;
+    border: 1px solid #e0e0e0;
+    width: 80%;
+    height: 180px;
+    border-radius: 15px;
+
+}
+.sec_recent{
+    margin-top: 40px;
+}
+.smal_time{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bh{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.bhb{
+    margin-top: 20%;
+    font-weight: 900;
+}
+/* madia query*/
+@media(max-width: 600px){
+    .fr_recent{
+        text-align: center !important;
+        width: 90%;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    .h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+}
+    .col_se_recent {
+        display: block !important;
+       width: 98%;
+       height: 700px;
+       margin: 50px 2%;
+       font-size: 30px;
+    }
+    .smal_div1{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+    .bhb {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 100px;
+}
+    .smal_time{
+        font-size: 15px;
+        
+}
+    .smal_div2{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+
+    
+}
+ @media(min-width: 601px) and (max-width:768px){
+    .fr_recent{
+        text-align: center !important;
+        width: 70%;
+        font-size: 30px;
+         /*margin-bottom: 100px;*/
+        margin: 100px 15%;
+    }
+    .h1{
+        font-size: 60px;
+        margin-bottom: 50px;
+}
+    .col_se_recent {
+        display: block !important;
+       width: 90%;
+       height: 700px;
+       margin: 50px 5%;
+       font-size: 30px;
+    }
+    .smal_div1{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+    .bhb {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 100px;
+}
+    .smal_time{
+        font-size: 15px;
+        
+}
+    .smal_div2{
+        width: 100%;
+        height: 300px;
+        font-size: 40px;
+    }
+
+    
+}
+
+
+
+/* end recent event*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*The style of the "Apply for Admission" section*/
+#apply
+{
+    color: white;
+    margin: 0;
+}
+
+/*The style of all tags in the "apply" section*/
+#apply *
+{
+    outline: none;
+}
+
+/*The "overlay" div which contains the background image*/
+.overlay
+{
+    background-image: url(../images/Admission/1.png);
+    background-size:cover;
+    background-position: center center;
+}
+
+/*The style of the form in the "apply" section*/
+#apply form
+{
+    padding: 150px 0;
+    margin: 0;
+    background-color: rgba(23,47,72,.871);
+}
+
+/*The style of all h1 headings in the "apply" section*/
+#apply h1
+{
+    font-size: 50px;
+}
+
+/*The style of inputs and textarea in the "Apply for Admission" section*/
+#apply input, #apply textarea
+{
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #353b56;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 20px 0;
+    color: white;
+}
+
+/*The style of the attribute "placeholder"*/
+#apply input::placeholder, #apply textarea::placeholder
+{
+    color: white;
+}
+
+/*The style of the "Apply Now" button*/
+#apply button
+{
+    background-color: #1fc2d9;
+    color: white;
+    border: 1px solid #1fc2d9;
+    border-radius: 5px;
+    padding: 15px;
+    width: 180px;
+}
+
+/*The style of the "Apply Now" button while hovering*/
+#apply button:hover
+{
+    background-color: white;
+    color: #1fc2d9;
+}
+/*End of "Apply for Admission" Section style*/
+
+
+
+/*The style of the footer*/
+footer
+{
+    background-color: #232637;
+    padding-top: 60px;
+    width: 100%;
+}
+
+/*The style of all tags in the footer*/
+footer *
+{
+    outline: none;
+}
+
+/*the style of the h2 headings in the footer*/
+footer h2
+{
+    color: white;
+    padding: 10px 0;
+}
+
+/*The style of the email input in the footer*/
+footer form input
+{
+    height: 60px;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/*The style of "Subscribe Now" button in the footer*/
+footer form button
+{
+    background-color: #ebb830;
+    border: none;
+    color: white;
+    display: block;
+    height: 60px;
+    width: 100%;
+}
+
+/*The style of social media links*/
+.social a
+{
+    padding: 20px;
+    color: white;
+}
+
+/*The style of social media links while hovering*/
+.social a:hover
+{  
+    background-color: #1fc2d9;
+    color: white;
+}
+
+/*The style of Facebook link*/
+.social .facebook
+{
+    background-color: #3b5998;
+}
+
+/*The style of Twitter link*/
+.social .twitter
+{
+    background-color: #1da1f2; 
+}
+
+/*The style of Google Plus link*/
+.social .google
+{
+    background-color: #dd4b39;
+}
+
+/*The style of LinkedIn link*/
+.social .linked
+{
+   background-color: #0077b5;
+}
+
+/*The style of all links in the footer*/
+footer a
+{
+    color: #7a838b;
+    display: block;
+    line-height: 2.5;
+}
+
+/*The style of the links in the footer while hovering*/
+footer a:hover
+{
+    color: #1fc2d9;
+    text-decoration: none;
+}
+
+/*The style of the copyright statement in the end of the footer*/
+footer .copyRight
+{
+    color: #7d84ab;
+    border-top: 1px solid #353b56;
+    padding: 50px 0;
+    margin-top:100px;
+}
+
+/*The style of the "Colorlib" link in the copyright statement*/
+footer .copyRight a
+{
+    color: #1f1f1f;
+    display: inline;
+}
+
+/*The style of the "Colorlib" link while hovering*/
+footer .copyRight a:hover
+{
+    color: #0056b3;
+}
+/*End of footer style*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)
+ {
+      /* "last courses" section style*/
+    .last-courses-title
+    {
+        padding: 60px 15% 10px 15%;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 15% 60px 15%;
+    }
+      /* end of "last courses" section style*/
+ }
+/*End of "576px" width*/
+
+/*The style of the body with width between "768px" and "992px"*/
+@media(min-width:768px)
+{
+    /* "last courses" section style*/
+    .last-courses-contant div 
+    {
+        float: left;
+        width: 42%;
+        margin: 0 20px;
+    }
+    /* end of "last courses" section style*/
+
+    /*The style of the form in the footer when the screen's width between "768px" and "992px"*/
+    footer form
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /*The style of the email input in the footer*/
+    footer form input
+    {
+        width: 35%;
+    }
+    
+    /*The style of "Subscribe Now" button*/
+    footer form button
+    {
+        width: 25%;
+    }
+    /*End of footer style*/
+}
+/*End of "768px" width*/
+
+/*The style of the body with minimum width "992px"*/
+@media(min-width:992px)
+{
+    /* "last courses" section style*/
+    .last-courses-title
+    {
+        padding: 60px 0 10px 6%;
+    }
+    .last-courses-title h2
+    {
+        width: 300px;
+    }
+    .last-courses-title p
+    {
+        width: 520px;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 0 60px 5%;
+    }
+    .last-courses-contant div 
+     {
+         width: 300px;
+         margin: 0 10px 0 0;
+     }
+    /* end of "last courses" section style*/
+
+     /*The style of the "Apply for Admission" section when the screen has minimum width "992px"*/
+    #apply
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        background-image: url(../images/Admission/2.png);
+    }
+    
+    /*The "overlay" div which contains the background image*/
+    .overlay
+    {
+        width: 65%;
+    }
+    
+    /*The style of the form in the "apply" section*/
+    #apply form
+    {
+        padding-right: 200px;
+        padding-left: 70px;
+        background-color: rgba(23,47,72,.871);
+        height: 100%;
+    }
+    /*End of "Apply for Admission" Section style*/
+    
+    
+    
+    /*The style of the form in the footer when when the screen has minimum width "992px"*/
+    footer form input
+    {
+        width: 50%;
+    }
+    
+    /*The style of "Subscribe Now" button*/
+    footer form button
+    {
+        width: 25%;
+    }
+    /*End of footer style*/
+}
+/*End of "992px" width*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+{
+    /* "last courses" section style*/
+    .last-courses-right
+    {
+        float: left;
+        width: 35%;
+        display: block;
+        height: 725px;
+    }
+    .last-courses-left
+    {
+        float: left;
+        width: 65%;
+        margin: 0;
+    }
+    .last-courses-title
+    {
+        padding: 60px 10px 10px 100px;
+        width: 100%;
+    }
+    .last-courses-title h2
+    {
+        width: 90%;
+        font-size: 45px;
+    }
+    .last-courses-title p
+    {
+        width: 90%;
+        font-size: 20px;
+    }
+    .last-courses-contant
+    {
+        padding: 20px 0 60px 100px;
+        float: right;
+        width: 100%;
+    }
+    .last-courses-contant div 
+     {
+         width: 300px;
+         margin: 0 20px 0 0;
+     }
+      /* end of "last courses" section style*/
+}
